@@ -112,7 +112,7 @@
       <div class="container">
         <a class="navbar-brand" href="#">
           <img
-            src="logo.png"
+            src="{{ asset('images/logo.png') }}"
             width="50"
             height="50"
             class="me-2 rounded-circle"
@@ -131,22 +131,22 @@
         <div id="mainNav" class="collapse navbar-collapse justify-content-end">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
+              <a class="nav-link" href="/log">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="caregivver.html">Caregivers</a>
+              <a class="nav-link" href="/caregiver">Caregivers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="item.html">Shop</a>
+              <a class="nav-link" href="/sell">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Service Area</a>
+              <a class="nav-link" href="/service">Service Area</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="carebl.html">Careblog</a>
+              <a class="nav-link" href="/careblog">Careblog</a>
             </li>
           </ul>
         </div>

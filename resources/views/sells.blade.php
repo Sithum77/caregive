@@ -69,7 +69,7 @@
     <div class="main-content">
       <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             <img
               src="{{ asset('images/logo.png') }}"
               width="50"
@@ -92,22 +92,22 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="login.html">Login</a>
+                <a class="nav-link" href="/log">Login</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="caregivver.html">Caregivers</a>
+                <a class="nav-link" href="/caregiver">Caregivers</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="item.html">Shop</a>
+                <a class="nav-link" href="/sell">Shop</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Service Area</a>
+                <a class="nav-link" href="/service">Service Area</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="carebl.html">Careblog</a>
+                <a class="nav-link" href="/careblog">Careblog</a>
               </li>
             </ul>
           </div>

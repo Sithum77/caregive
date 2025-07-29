@@ -36,11 +36,7 @@ Route::get('regist/', function () {
     
 });
 
-Route::get('regist/', function () {
-    return view('registation');
 
-    
-});
 Route::get('service/', function () {
     return view('service');
 
@@ -66,6 +62,11 @@ Route::get('walk/', function () {
 
 Route::get('sell/', function () {
     return view('sells');
+
+    
+});
+Route::get('password/', function () {
+    return view('frogetpassword');
 
     
 });

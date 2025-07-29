@@ -80,22 +80,22 @@
         <div id="mainNav" class="collapse navbar-collapse justify-content-end">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="form.html">Login</a>
+              <a class="nav-link" href="/log">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="caregivver.html">Caregivers</a>
+              <a class="nav-link" href="/caregiver">Caregivers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="item.html">Shop</a>
+              <a class="nav-link" href="/sell">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Service Area</a>
+              <a class="nav-link" href="/service">Service Area</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="carebl.html">Careblog</a>
+              <a class="nav-link" href="/careblog">Careblog</a>
             </li>
           </ul>
         </div>
@@ -145,7 +145,7 @@
           <label for="district" class="form-label">Select District</label>
           <select class="form-select" id="district" name="district" required>
             <option value="" disabled selected>
-              -- Choose your district --
+           
             </option>
             <option value="Colombo">Colombo</option>
             <option value="Kandy">Kandy</option>

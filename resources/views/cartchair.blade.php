@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Payment | Care Link</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      href="cssc/bootstrap.min.css"
       rel="stylesheet"
     />
+   <script src="js/bootstrap.bundle.js"></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
@@ -111,7 +112,7 @@
       <div class="container">
         <a class="navbar-brand" href="#">
           <img
-            src="logo.png"
+            src="{{ asset('images/logo.png') }}"
             width="50"
             height="50"
             class="me-2 rounded-circle"
@@ -232,7 +233,7 @@
     </footer>
 
   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   
     <script>
       function updateQty(change) {
         const qtyInput = document.getElementById("quantity");

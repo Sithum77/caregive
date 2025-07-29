@@ -176,21 +176,21 @@
         </button>
         <div id="mainNav" class="collapse navbar-collapse justify-content-end">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
             <li class="nav-item">
-              <a class="nav-link" href="form.html">Login</a>
+              <a class="nav-link" href="/log">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="caregivver.html">Caregivers</a>
+              <a class="nav-link" href="/caregiver">Caregivers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="item.html">Shop</a>
+              <a class="nav-link" href="/sell">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Service Area</a>
+              <a class="nav-link" href="/service">Service Area</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="carebl.html">Careblog</a>
+              <a class="nav-link" href="/careblog">Careblog</a>
             </li>
           </ul>
         </div>
@@ -210,7 +210,7 @@
             <p>
               We provide home care services to help you live your best life.
             </p>
-            <a href="#" class="btn btn-warning">Learn More</a>
+            <a href="/careblog" class="btn btn-warning">Learn More</a>
           </div>
         </div>
         <div class="carousel-item">
@@ -218,7 +218,7 @@
           <div class="slide-content">
             <h2>Trusted <span class="text-info">Caregivers</span></h2>
             <p>Get loving care from our certified professionals.</p>
-            <a href="#" class="btn btn-warning">Learn More</a>
+            <a href="/careblog" class="btn btn-warning">Learn More</a>
           </div>
         </div>
         <div class="carousel-item">
@@ -226,7 +226,7 @@
           <div class="slide-content">
             <h2>Your Health, <span class="text-info">Our Priority</span></h2>
             <p>Flexible services tailored to your needs.</p>
-            <a href="#" class="btn btn-warning">Learn More</a>
+            <a href="/careblog" class="btn btn-warning">Learn More</a>
           </div>
         </div>
       </div>
@@ -256,25 +256,25 @@
           <img src="{{ asset('images/l7.jpg') }}" alt="l" class="img-fluid rounded mb-3 mt-4" />
           <h5>Concierge Services</h5>
           <p>We help with your everyday tasks and routines.</p>
-          <button class="btn btn-primary">lern more</button>
+          <a class="btn btn-primary" href="/careblog">lern more</a>
         </div>
         <div class="col-md-3 service-box border border-success gx-1">
           <img src="{{ asset('images/l6.jpg') }}" alt="l" class="img-fluid rounded mb-3" />
           <h5>Companionship</h5>
           <p>You're never alone – our companions are with you.</p>
-          <button class="btn btn-primary">lern more</button>
+          <a class="btn btn-primary" href="/careblog">lern more</a>
         </div>
         <div class="col-md-3 service-box border border-success gx-5">
           <img src="{{ asset('images/l2.jpg') }}" alt="l" class="img-fluid rounded mb-3" />
           <h5>Homemaking</h5>
           <p>We assist with housework and cleanliness.</p>
-          <button class="btn btn-primary">lern more</button>
+         <a class="btn btn-primary" href="/careblog">lern more</a>
         </div>
         <div class="col-md-3 service-box border border-success gx-5">
           <img src="{{ asset('images/l3.jpg') }}" alt="l" class="img-fluid rounded mb-3" />
           <h5>More Services</h5>
           <p>Explore our full range of caregiving services.</p>
-          <button class="btn btn-primary">lern more</button>
+          <a class="btn btn-primary" href="/service">lern more</a>
         </div>
       </div>
     </div>
@@ -384,17 +384,16 @@
           <div class="col-md-4 mb-3">
             <h5>Quick Links</h5>
             <ul class="list-unstyled">
-              <li><a href="#" class="text-light">Home</a></li>
-              <li><a href="form.html" class="text-light">Login</a></li>
+              <li><a href="/" class="text-light">Home</a></li>
+              <li><a href="/log" class="text-light">Login</a></li>
               <li>
-                <a href="caregivver.html" class="text-light">Caregivers</a>
-              </li>
-              <li><a href="#" class="text-light">Careers</a></li>
-            </ul>
+                <a href="/caregiver" class="text-light">Caregivers</a>
+              
+           
           </div>
           <div class="col-md-4 mb-3">
             <h5>Contact Us</h5>
-            <p>Email: carelink@gmail.com</p>
+            <p>Email: acarelink@gmail.com</p>
             <p>Tel: 0762119014</p>
             <p>40 Lake Side, Kandy, Kadugannawa</p>
             <div>

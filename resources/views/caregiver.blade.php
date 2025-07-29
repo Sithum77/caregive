@@ -22,6 +22,21 @@
         flex: 1;
       }
 
+      .navbar {
+        background-color: #006666;
+      }
+
+      .navbar-nav .nav-link {
+        color: white !important;
+      }
+      .pt {
+        border-radius: 50%;
+      }
+
+      .navbar-nav .nav-link:hover {
+        color: #ffc107 !important;
+      }
+
       .card img {
         height: 500px;
         object-fit: cover;
@@ -54,6 +69,44 @@
     </style>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img
+            src="{{ asset('images/logo.png') }}"
+            width="50"
+            height="50"
+            class="me-2 rounded-circle"
+            alt="Logo"
+          />
+          Care Link
+        </a>
+        
+        <div id="mainNav" class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/log">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/caregiver">Caregivers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/sell">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/service">Service Area</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/careblog">Careblog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <div class="header-section">
       <h1>Meet Your <span class="text-warning">Caregivers</span></h1>
       <p>Our professional and compassionate caregivers are here for you.</p>
@@ -64,7 +117,7 @@
         <div class="row g-4">
           <div class="col-md-4">
             <div class="card h-100">
-              <img  src=  "{{ asset('images/c2.jpg') }}" class="card-img-top" alt="Caregiver 1" />
+              <img src="{{ asset('images/c2.jpg') }}" class="card-img-top" alt="Caregiver 1" />
               <div class="card-body">
                 <h5 class="card-title">Warni Silva</h5>
                 <p class="card-text">
@@ -74,7 +127,7 @@
               </div>
               <div class="card-footer text-center">
                 <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
+                  <a class="link-light" href="/book">Booking</a>
                 </button>
               </div>
             </div>
@@ -82,7 +135,7 @@
 
           <div class="col-md-4">
             <div class="card h-100">
-              <img src="{{ asset('images/c3.jpg') }}" class="card-img-top" alt="Caregiver 2" />
+              <img src="{{ asset('images/c1.jpg') }}" class="card-img-top" alt="Caregiver 2" />
               <div class="card-body">
                 <h5 class="card-title">Shashi Fernando</h5>
                 <p class="card-text">
@@ -92,7 +145,7 @@
               </div>
               <div class="card-footer text-center">
                 <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
+                  <a class="link-light" href="/book">Booking</a>
                 </button>
               </div>
             </div>
@@ -100,7 +153,7 @@
 
           <div class="col-md-4">
             <div class="card h-100">
-              <img src="{{ asset('images/c1.jpg') }}" class="card-img-top" alt="Caregiver 3" />
+              <img src="{{ asset('images/c3.jpg') }}" class="card-img-top" alt="Caregiver 3" />
               <div class="card-body">
                 <h5 class="card-title">Anjala Perera</h5>
                 <p class="card-text">
@@ -110,7 +163,7 @@
               </div>
               <div class="card-footer text-center">
                 <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
+                  <a class="link-light" href="/book">Booking</a>
                 </button>
               </div>
             </div>
@@ -128,7 +181,7 @@
               </div>
               <div class="card-footer text-center">
                 <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
+                  <a class="link-light" href="/book">Booking</a>
                 </button>
               </div>
             </div>
@@ -146,7 +199,7 @@
               </div>
               <div class="card-footer text-center">
                 <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
+                  <a class="link-light" href="/book">Booking</a>
                 </button>
               </div>
             </div>
@@ -164,7 +217,7 @@
               </div>
               <div class="card-footer text-center">
                 <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
+                  <a class="link-light" href="/book">Booking</a>
                 </button>
               </div>
             </div>
@@ -182,7 +235,7 @@
               </div>
               <div class="card-footer text-center">
                 <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
+                  <a class="link-light" href="/book">Booking</a>
                 </button>
               </div>
             </div>
@@ -200,7 +253,7 @@
               </div>
               <div class="card-footer text-center">
                 <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
+                  <a class="link-light" href="/book">Booking</a>
                 </button>
               </div>
             </div>
@@ -218,7 +271,7 @@
               </div>
               <div class="card-footer text-center">
                 <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
+                  <a class="link-light" href="/book">Booking</a>
                 </button>
               </div>
             </div>
@@ -236,7 +289,7 @@
               </div>
               <div class="card-footer text-center">
                 <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
+                  <a class="link-light" href="/book">Booking</a>
                 </button>
               </div>
             </div>
@@ -254,7 +307,7 @@
               </div>
               <div class="card-footer text-center">
                 <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
+                  <a class="link-light" href="/book">Booking</a>
                 </button>
               </div>
             </div>
@@ -272,79 +325,7 @@
               </div>
               <div class="card-footer text-center">
                 <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card h-100">
-              <img src="{{ asset('images/c2.jpg') }}" class="card-img-top" alt="Caregiver 2" />
-              <div class="card-body">
-                <h5 class="card-title">Shashi Fernando</h5>
-                <p class="card-text">
-                  Experienced in mobility support and daily task assistance.
-                  Friendly and attentive service.
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card h-100">
-              <img src="{{ asset('images/c5.jpg') }}" class="card-img-top" alt="Caregiver 2" />
-              <div class="card-body">
-                <h5 class="card-title">Ruwani Rathnayake</h5>
-                <p class="card-text">
-                  Experienced in mobility support and daily task assistance.
-                  Friendly and attentive service.
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card h-100">
-              <img src="{{ asset('images/c9.jpg') }}" class="card-img-top" alt="Caregiver 2" />
-              <div class="card-body">
-                <h5 class="card-title">Nilakshi Senanayake</h5>
-                <p class="card-text">
-                  Experienced in mobility support and daily task assistance.
-                  Friendly and attentive service.
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card h-100">
-              <img src="{{ asset('images/c12.jpg') }}" class="card-img-top" alt="Caregiver 2" />
-              <div class="card-body">
-                <h5 class="card-title">Chamari Rodrigo</h5>
-                <p class="card-text">
-                  Experienced in mobility support and daily task assistance.
-                  Friendly and attentive service.
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
+                  <a class="link-light" href="/book">Booking</a>
                 </button>
               </div>
             </div>
@@ -354,6 +335,78 @@
             <div class="card h-100">
               <img src="{{ asset('images/c7.jpg') }}" class="card-img-top" alt="Caregiver 2" />
               <div class="card-body">
+                <h5 class="card-title">Shashi Fernando</h5>
+                <p class="card-text">
+                  Experienced in mobility support and daily task assistance.
+                  Friendly and attentive service.
+                </p>
+              </div>
+              <div class="card-footer text-center">
+                <button class="btn btn-primary">
+                  <a class="link-light" href="/book">Booking</a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="{{ asset('images/c1.jpg') }}" class="card-img-top" alt="Caregiver 2" />
+              <div class="card-body">
+                <h5 class="card-title">Ruwani Rathnayake</h5>
+                <p class="card-text">
+                  Experienced in mobility support and daily task assistance.
+                  Friendly and attentive service.
+                </p>
+              </div>
+              <div class="card-footer text-center">
+                <button class="btn btn-primary">
+                  <a class="link-light" href="/book">Booking</a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="{{ asset('images/c5.jpg') }}" class="card-img-top" alt="Caregiver 2" />
+              <div class="card-body">
+                <h5 class="card-title">Nilakshi Senanayake</h5>
+                <p class="card-text">
+                  Experienced in mobility support and daily task assistance.
+                  Friendly and attentive service.
+                </p>
+              </div>
+              <div class="card-footer text-center">
+                <button class="btn btn-primary">
+                  <a class="link-light" href="/book">Booking</a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="{{ asset('images/c4.jpg') }}" class="card-img-top" alt="Caregiver 2" />
+              <div class="card-body">
+                <h5 class="card-title">Chamari Rodrigo</h5>
+                <p class="card-text">
+                  Experienced in mobility support and daily task assistance.
+                  Friendly and attentive service.
+                </p>
+              </div>
+              <div class="card-footer text-center">
+                <button class="btn btn-primary">
+                  <a class="link-light" href="/book">Booking</a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="{{ asset('images/c9.jpg') }}" class="card-img-top" alt="Caregiver 2" />
+              <div class="card-body">
                 <h5 class="card-title">Malsha Jayawardena</h5>
                 <p class="card-text">
                   Experienced in mobility support and daily task assistance.
@@ -362,14 +415,14 @@
               </div>
               <div class="card-footer text-center">
                 <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
+                  <a class="link-light" href="/book">Booking</a>
                 </button>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card h-100">
-              <img src="{{ asset('images/c8.jpg') }}" class="card-img-top" alt="Caregiver 2" />
+              <img src="{{ asset('images/c2.jpg') }}" class="card-img-top" alt="Caregiver 2" />
               <div class="card-body">
                 <h5 class="card-title">Hiruni Bandara</h5>
                 <p class="card-text">
@@ -379,7 +432,7 @@
               </div>
               <div class="card-footer text-center">
                 <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
+                  <a class="link-light" href="/book">Booking</a>
                 </button>
               </div>
             </div>
@@ -387,7 +440,7 @@
 
           <div class="col-md-4">
             <div class="card h-100">
-              <img src="{{ asset('images/c10.jpg') }}" class="card-img-top" alt="Caregiver 2" />
+              <img src="{{ asset('images/c5.jpg') }}" class="card-img-top" alt="Caregiver 2" />
               <div class="card-body">
                 <h5 class="card-title">Pavithra Fonseka</h5>
                 <p class="card-text">
@@ -397,7 +450,7 @@
               </div>
               <div class="card-footer text-center">
                 <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
+                  <a class="link-light" href="/book">Booking</a>
                 </button>
               </div>
             </div>
@@ -405,7 +458,7 @@
 
           <div class="col-md-4">
             <div class="card h-100">
-              <img src="{{ asset('images/c11.jpg') }}" class="card-img-top" alt="Caregiver 2" />
+              <img src="{{ asset('images/c1.jpg') }}" class="card-img-top" alt="Caregiver 2" />
               <div class="card-body">
                 <h5 class="card-title">Oshadi Ekanayake</h5>
                 <p class="card-text">
@@ -415,7 +468,7 @@
               </div>
               <div class="card-footer text-center">
                 <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
+                  <a class="link-light" href="/book">Booking</a>
                 </button>
               </div>
             </div>
@@ -423,7 +476,7 @@
 
           <div class="col-md-4">
             <div class="card h-100">
-              <img src="{{ asset('images/c12.jpg') }}" class="card-img-top" alt="Caregiver 2" />
+              <img src="{{ asset('images/c8.jpg') }}" class="card-img-top" alt="Caregiver 2" />
               <div class="card-body">
                 <h5 class="card-title">Shehani Perera</h5>
                 <p class="card-text">
@@ -433,31 +486,13 @@
               </div>
               <div class="card-footer text-center">
                 <button class="btn btn-primary">
-                  <a class="link-light" href="bookin.html">Booking</a>
+                  <a class="link-light" href="/book">Booking</a>
                 </button>
               </div>
             </div>
           </div>
 
-          <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-center">
-              <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1">Previous</a>
-              </li>
-              <li class="page-item active">
-                <a class="page-link" href="carenextpage1.html">1</a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="caregivers_page2.html">2</a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="caregivers_page3.html">3</a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="caregivers_page2.html">Next</a>
-              </li>
-            </ul>
-          </nav>
+          
         </div>
       </div>
     </div>

@@ -134,22 +134,22 @@
         <div id="mainNav" class="collapse navbar-collapse justify-content-end">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
+              <a class="nav-link" href="/log">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="caregivver.html">Caregivers</a>
+              <a class="nav-link" href="/caregiver">Caregivers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="item.html">Shop</a>
+              <a class="nav-link" href="/sell">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Service Area</a>
+              <a class="nav-link" href="/service">Service Area</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="careblog.html">Careblog</a>
+              <a class="nav-link" href="/careblog">Careblog</a>
             </li>
           </ul>
         </div>
@@ -251,7 +251,7 @@
   <mag-article
     title="How to Choose the Right Caregiver"
     subtitle="Tips on selecting compassionate and skilled caregivers for your loved ones."
-    img="{{ asset('n3.jpg') }}"
+    img="{{ asset('images/n3.jpg') }}"
   >
     <p>Choosing the right caregiver is a vital step to ensure the safety, comfort, and happiness of your loved ones. It starts with understanding their unique medical needs, emotional wellbeing, and daily routines. A good caregiver should not only possess the required skills and qualifications but also demonstrate genuine compassion and patience.</p>
     <p>When selecting a caregiver, consider checking references and performing background checks to verify reliability. Communication skills are essential; the caregiver should be able to clearly understand and report any changes in health or mood. Additionally, cultural compatibility and personal values can improve trust and harmony.</p>
@@ -261,7 +261,7 @@
   <mag-article
     title="Top 5 Mobility Aids for Seniors"
     subtitle="Discover the best mobility aids to improve the daily life of seniors."
-    img="{{ asset('n2.jpg') }}"
+    img="{{ asset('images/n2.jpg') }}"
   >
     <p>Mobility aids play a crucial role in enhancing independence and quality of life for seniors. The right device can prevent falls, reduce pain, and increase confidence when moving around.</p>
     <p>Here are the top 5 mobility aids commonly recommended:</p>
@@ -278,7 +278,7 @@
   <mag-article
     title="Caring for Alzheimer's Patients"
     subtitle="Practical advice and emotional support strategies for caregivers."
-    img="{{ asset('n1.jpg') }}"
+    img="{{ asset('images/n1.jpg') }}"
   >
     <p>Caring for someone with Alzheimer's disease demands patience, empathy, and adaptability. The condition gradually affects memory, reasoning, and communication, making daily caregiving challenging yet profoundly important.</p>
     <p>Establishing a consistent routine helps reduce confusion and anxiety. Simple tasks should be broken down into manageable steps, and clear, gentle communication is key. Non-verbal cues and body language often become essential tools to understand needs and emotions.</p>
